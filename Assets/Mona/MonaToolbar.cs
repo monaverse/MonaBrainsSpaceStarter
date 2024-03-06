@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEditor;
 using UnityToolbarExtender;
+using Mona.SDK.Brains.UIEditors;
 
 namespace Mona
 {
@@ -40,6 +41,13 @@ namespace Mona
                     TemplateHelper.ShowWindow();
                 }
             }
+
+            if (GUILayout.Button(new GUIContent("☉ Mona Brains", "Show Mona Brains")))
+            {
+                MonaBrainsEditorWindow.ShowWindow();
+            }
+
+            GUILayout.Space(25);
 
             if (GUILayout.Button(new GUIContent("☼ Mona Library", "Show Mona Library")))
             {
