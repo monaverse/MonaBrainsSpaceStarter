@@ -44,9 +44,16 @@ MonoBehaviour:
   - rid: 6317540287137710450
   - rid: 6317540287137710438
   - rid: 6317540287137710443
+  - rid: 2414738927307456837
   references:
     version: 2
     RefIds:
+    - rid: 2414738927307456837
+      type: {class: MonaTagItem, ns: Mona.SDK.Brains.Core.ScriptableObjects, asm: com.monaverse.sdk.brains.runtime}
+      data:
+        _tag: Tag
+        _isPlayerTag: 0
+        _isEditable: 1
     - rid: 6317540287137710431
       type: {class: MonaTagItem, ns: Mona.SDK.Brains.Core.ScriptableObjects, asm: com.monaverse.sdk.brains.runtime}
       data:
