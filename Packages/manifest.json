@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.monaverse.brainssdk": "0.10.0",
-    "com.monaverse.unitygltf": "0.1.0",
+    "com.monaverse.brainssdk": "0.11.0",
+    "com.monaverse.unitygltf": "0.3.0",
     "com.unity.ai.navigation": "1.1.4",
     "com.unity.collab-proxy": "2.0.5",
     "com.unity.editorcoroutines": "1.0.0",
